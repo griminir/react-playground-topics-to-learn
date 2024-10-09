@@ -1,11 +1,14 @@
+import { Link } from 'react-router-dom';
+
 const HomePage = () => {
+  // throw new Error('This is an error');
   return (
     <>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-        Incidunt, mollitia!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt,
+        mollitia!
       </p>
-      <a href="/users">Users</a>
+      <Link to='/users'>Users</Link>
     </>
   );
 };
